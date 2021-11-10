@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		F805B90B273C509B00C407A1 /* Player1.swift in Sources */ = {isa = PBXBuildFile; fileRef = F805B90A273C509B00C407A1 /* Player1.swift */; };
-		F805B90D273C520D00C407A1 /* Player2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F805B90C273C520D00C407A1 /* Player2.swift */; };
 		F805B90F273C521A00C407A1 /* Player3.swift in Sources */ = {isa = PBXBuildFile; fileRef = F805B90E273C521A00C407A1 /* Player3.swift */; };
 		F805B912273C536500C407A1 /* NavigationTitleEnhanced.swift in Sources */ = {isa = PBXBuildFile; fileRef = F805B911273C536500C407A1 /* NavigationTitleEnhanced.swift */; };
 		F8A74CA62739619900103635 /* TradingCardAssignmentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A74CA52739619900103635 /* TradingCardAssignmentApp.swift */; };
@@ -19,7 +18,6 @@
 
 /* Begin PBXFileReference section */
 		F805B90A273C509B00C407A1 /* Player1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player1.swift; sourceTree = "<group>"; };
-		F805B90C273C520D00C407A1 /* Player2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player2.swift; sourceTree = "<group>"; };
 		F805B90E273C521A00C407A1 /* Player3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player3.swift; sourceTree = "<group>"; };
 		F805B911273C536500C407A1 /* NavigationTitleEnhanced.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationTitleEnhanced.swift; sourceTree = "<group>"; };
 		F8A74CA22739619900103635 /* TradingCardAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TradingCardAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -45,7 +43,6 @@
 			children = (
 				F805B910273C531E00C407A1 /* Shared Items */,
 				F805B90A273C509B00C407A1 /* Player1.swift */,
-				F805B90C273C520D00C407A1 /* Player2.swift */,
 				F805B90E273C521A00C407A1 /* Player3.swift */,
 			);
 			path = Views;
@@ -170,7 +167,6 @@
 				F8A74CA82739619900103635 /* ContentView.swift in Sources */,
 				F8A74CA62739619900103635 /* TradingCardAssignmentApp.swift in Sources */,
 				F805B912273C536500C407A1 /* NavigationTitleEnhanced.swift in Sources */,
-				F805B90D273C520D00C407A1 /* Player2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

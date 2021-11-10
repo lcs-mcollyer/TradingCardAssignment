@@ -11,9 +11,7 @@ import SwiftUI
 struct TradingCardAssignment: App {
     var body: some Scene {
         WindowGroup {
-            NavigationView{
-            ContentView()
-            }
+            
         }
     }
 }
