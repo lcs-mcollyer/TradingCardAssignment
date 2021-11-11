@@ -10,16 +10,16 @@ struct DetailView: View {
                 .resizable()
                 .scaledToFit()
                 
-            VStack(alignment: .leading){
+//            VStack(alignment: .leading){
             
                 Text("Jonny may is one of my favourite players ever " )
-            
-            
-                    .padding()
+                .padding()
                 
-                Spacer()
-                
-            }
+            Spacer()
+            
+                           
+            //}
+            .navigationTitle("Jonny May ")
         }
     }
 }
