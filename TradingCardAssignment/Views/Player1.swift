@@ -5,20 +5,28 @@ struct DetailView: View {
     var body: some View {
         
         VStack{
-             
+            
             Image("JonnyMay")
                 .resizable()
                 .scaledToFit()
-                
-//            VStack(alignment: .leading){
             
-                Text("Jonny may is one of my favourite players ever " )
-                .padding()
+            VStack(alignment: .leading){
                 
-            Spacer()
-            
-                           
-            //}
+                Text("Jonny May is a Former Leicester Tigers Right Wing known for his outrageous pace" )
+                
+                    .padding()
+                
+                
+                
+                HStack{
+                    Text("# Of Trys 2021 : 4")
+                        .padding()
+                   
+                    Text("Tackle % : 77 ")
+
+                                    }
+                Spacer()
+            }
             .navigationTitle("Jonny May ")
         }
     }
